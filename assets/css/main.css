@@ -124,7 +124,7 @@ body{
     border-radius: 11px;
   }
 
-  @media screen and (max-width: 1139px) {
+  @media screen and (max-width: 1156px) {
     .card-wrapper{
       max-width: 640px;
       margin-left: auto;
@@ -132,7 +132,7 @@ body{
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 836px) {
     .card-wrapper{
       max-width: 320px;
       margin-left: auto;
