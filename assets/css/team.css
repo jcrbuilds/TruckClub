@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    background: #232323;
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.fa-home, .fa-pager, .fa-users{
+    color: #0B50C0;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 180px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+  }
+
+  .navimg{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    position: relative;
+    margin-left: 180px; 
+    padding: 0px 0px;
+    text-align: center;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .sec1{
+    text-align: center;
+    position: relative;
+    min-height: 120px;
+    background: #0B50C0;
+    padding: 1%;
+  }
+
+  .sec1 h1{
+    font-size: 50px;
+  }
+
+  .sec2{
+    text-align: center;
+    position: relative;
+    min-height: 100px;
+    background: #232323;
+    padding-top: 3%;
+  }
+
+  .Role{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fefefe;
+    position: relative;
+  }
+
+  .Role:after{
+    content: "";
+    width: 3rem;
+    height: 0.5rem;
+    background-color: #0B50C0;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+  }
+
+  .card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 260px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+    border-radius: 16px;
+    padding-top: 0.7rem;
+  }
+
+  .profile-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .card h1{
+    font-size: 27px;
+    color: #fefefe;
+    margin: 0.5rem;
+  }
+
+  @media screen and (min-width: 700px){
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  hr.line1{
+    border: 1px solid #0B50C0;
+    width: 95%;
+  }
+
+  owner{
+    color: #e4b400;
+  }
+
+  .custom-shape-divider-top-1666280556 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1666280556 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-top-1666280556 .shape-fill {
+    fill: #0B50C0;
+}
+
