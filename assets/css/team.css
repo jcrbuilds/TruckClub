@@ -170,51 +170,60 @@ moderator{
 
  .contact{
   width: 70%;
+  min-width: 350px;
   min-height: 300px;
-  background-color: #1a1a1a;
+  background: #181818;
   padding: 10px;
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 10px #0e0e0eb7;
  }
 
  .username{
   margin-top: 20px;
-  max-width: 90%;
-  min-width: 90%;
+  max-width: 95%;
+  min-width: 95%;
   padding: 10px;
   border-radius: 16px;
-  border-color: #0B50C0;
   color: #fefefe;
-  border-width: 5px;
-  background: rgb(12, 12, 12);
+  background: rgba(44, 44, 44, 0.829);
+  border-style: solid;
+  border-color: rgba(44, 44, 44, 0.829);
  }
 
  .content{
-  max-width: 90%;
-  min-width: 90%;
+  max-width: 95%;
+  min-width: 95%;
   padding: 10px;
   border-radius: 16px;
-  border-color: #0B50C0;
   color: #fefefe;
-  border-width: 5px;
-  background: rgb(12, 12, 12);
+  background: rgba(44, 44, 44, 0.829);
+  border-style: solid;
+  border-color: rgba(44, 44, 44, 0.829);
  }
 
  .submit{
   width: 30%;
   padding: 10px;
   border-radius: 16px;
-  border-color: #0B50C0;
+  border-color: #0b50c000;
   border-style: solid;
   color: #fefefe;
   font-size: 20px;
   border-width: 5px;
-  background: rgb(12, 12, 12);
+  background: rgba(44, 44, 44, 0.829);
  }
 
  .submit:hover{
-  background-color: #0a53c913;
+  background: rgba(59, 59, 59, 0.829);
+ }
+
+ .pen-icon{
+  color: #fefefe;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
  }
 
  /* Feedback System Styles */
