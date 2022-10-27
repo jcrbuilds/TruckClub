@@ -95,14 +95,12 @@ body{
 
 .des{
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .card-wrapper{
   max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .card{
@@ -113,6 +111,7 @@ body{
   margin: 5px;
   padding: 5px;
   border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 hr.line1{
@@ -127,16 +126,14 @@ hr.line1{
 @media screen and (max-width: 1156px) {
   .card-wrapper{
     max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 836px) {
   .card-wrapper{
     max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 }
 
